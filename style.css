@@ -228,6 +228,8 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    height: 6rem;
 }
 
 .album {
@@ -272,6 +274,11 @@ a{
     height: 3px;
     background-color: transparent;
     cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.aaa{
+    margin-top: 0.5rem;
 }
 
 .progress-bar::-webkit-slider-runnable-track{
@@ -292,20 +299,24 @@ a{
 .controls{
     display: flex;
     align-items: center; 
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .controls-icons{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
 }
 
 .iii{
     height: 1rem;
     width: 1rem;
+    padding: 0.5rem;
     opacity: 0.7;
+}
+
+.vol{
+    margin-bottom: 0.5rem;
 }
 
 .iii:hover{
@@ -314,4 +325,25 @@ a{
 
 .volumn{
     width: 30%;
+}
+
+.album{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.song-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.album-img
+{
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
 }
