@@ -181,12 +181,16 @@ a{
 
 
 .card{
-    background-color: #232323;
+    background-color: #1d1d1d;
     width: 150px;
     border-radius: 0.5rem;
     padding: 1rem;
     margin-left: 1.5rem;
     margin-top: 1rem;
+}
+
+.card:hover{
+    background-color: #232323;
 }
 
 .cards-container{
