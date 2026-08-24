@@ -181,7 +181,11 @@ a{
 
 
 .card{
-    /* background-color: #1d1d1d; */
+        background-color: transparent;
+
+    transition: background-color 0.2s ease,
+                transform 0.2s ease,
+                box-shadow 0.2s ease;
     width: 150px;
     border-radius: 0.5rem;
     padding: 1rem;
@@ -190,9 +194,12 @@ a{
     transition: transform 0.2s ease;
 }
 
-.card:hover{
+.card:hover {
     background-color: #232323;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
+
 
 .cards-container{
     display: flex;
