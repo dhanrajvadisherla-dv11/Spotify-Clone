@@ -25,6 +25,20 @@
 
 <body>
 
+
+
+    <script>
+    const progressBar = document.querySelector(".progress-bar");
+
+    progressBar.addEventListener("input", () => {
+        const value = progressBar.value;
+
+        progressBar.style.background =
+            `linear-gradient(to right, #1bd760 ${value}%, #4d4d4d ${value}%)`;
+    });
+</script>
+
+
     <div class="main">
 
         <!-- Sidebar -->
@@ -332,17 +346,17 @@
 
                 <div class="playback-bar aaa">
 
-                    <div class="curr-time aaa">
+                    <div class="curr-time" style="font-size: 0.75rem; color: #b3b3b3;">
                         00:00
                     </div>
 
                     <input type="range"
                         min="0"
-                        max="100"
+                        max="213"
                         class="progress-bar"
                         step="1">
 
-                    <div class="tot-time aaa">
+                    <div class="tot-time" style="font-size: 0.75rem; color: #b3b3b3;">
                         3:33
                     </div>
 

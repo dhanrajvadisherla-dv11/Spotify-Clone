@@ -288,15 +288,25 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 0.5rem;
 }
 
 .progress-bar{
-    width: 70%;
+    width: 75%;
     appearance: none;
     height: 3px;
-    background-color: transparent;
+    /* background-color: transparent; */
     cursor: pointer;
+    border-radius: 100px;
+    outline: none;
     margin-top: 0.5rem;
+    background: linear-gradient(
+    to right,
+    #1bd760 0%,
+    #1bd760 70%,
+    #4d4d4d 50%,
+    #4d4d4d 100%
+);
 }
 
 .aaa{
@@ -304,18 +314,34 @@ a{
 }
 
 .progress-bar::-webkit-slider-runnable-track{
-    background-color: #ddd;
+    /* background-color: #ddd;
+    background-color: #4d4d4d;
+    background: transparent;
     border-radius: 100px;
-    height: 0.2rem;
+    height: 0.25rem; */
+    background: transparent;
+    border-radius: 100px;
+    height: 0.25rem;
 }
 
 .progress-bar::-webkit-slider-thumb{
     appearance: none;
     height: 1rem;
+    opacity: 0;
     width: 1rem;
+    transition: transform 0.1s ease;
     background-color: #1bd760;
     border-radius: 50%;
     margin-top: -6px;
+}
+
+.progress-bar:hover::-webkit-slider-thumb {
+    opacity: 1;
+}
+
+.progress-bar:hover::-webkit-slider-thumb {
+    opacity: 1;
+    transform: scale(1.1);
 }
 
 .controls{
