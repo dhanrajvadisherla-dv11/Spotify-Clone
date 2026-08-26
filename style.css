@@ -164,6 +164,33 @@ a{
     align-items: center;
 }
 
+.profile-container {
+
+    margin-left: 0.75rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+    padding: 0.5rem;
+    border-radius: 2rem;
+
+    transition: all 0.2s ease;
+}
+
+.profile-container:hover {
+    background-color: #232323;
+}
+
+.profile-text {
+    display: none;
+}
+
+.profile-container:hover .profile-text {
+    display: inline;
+}
+
 .nav-item{
     margin-left: 1rem;
 }
