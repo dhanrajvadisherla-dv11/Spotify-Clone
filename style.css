@@ -177,6 +177,7 @@ a{
     border-radius: 2rem;
 
     transition: all 0.2s ease;
+    color: #1bd760;
 }
 
 .profile-container:hover {
