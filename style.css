@@ -255,7 +255,7 @@ a{
 .play-btn {
     width: 48px;
     height: 48px;
-    border-radius: 50%;
+    border-radius: 49%;
     border: none;
 
     background-color: #1DB954;
