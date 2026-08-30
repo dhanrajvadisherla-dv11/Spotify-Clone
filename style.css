@@ -270,6 +270,10 @@ a{
     transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
+.play-btn:hover {
+    transform: scale(1.08);
+}
+
 .card-img-container:hover .play-btn {
     opacity: 1;
 }
