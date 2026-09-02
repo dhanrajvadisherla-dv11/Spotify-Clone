@@ -271,7 +271,7 @@ a{
 }
 
 .play-btn:hover {
-    transform: scale(1.01);
+    transform: scale(1.2);
 }
 
 .card-img-container:hover .play-btn {
