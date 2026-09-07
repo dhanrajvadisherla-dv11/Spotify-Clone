@@ -138,9 +138,15 @@ a{
     width: fit-content;
 }
 
-.dark-badge{
+.dark-badge {
     background-color: black;
     color: white;
+    transition: 0.3s;
+}
+
+.dark-badge:hover {
+    background-color: white;
+    color: black;
 }
 
 .sticky-nav{
