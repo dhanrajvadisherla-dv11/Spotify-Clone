@@ -149,6 +149,48 @@ a{
     color: black;
 }
 
+
+.liked-songs{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    margin: 0.5rem 0 0.75rem 0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.liked-icon{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.25rem;
+    background: linear-gradient(135deg, #450af5, #c4efd9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.liked-icon i{
+    color: white;
+}
+
+.liked-songs p{
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.liked-songs span{
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+
+.liked-songs:hover{
+    background-color: #1f1f1f;
+}
+
+
+
 .sticky-nav{
     position: sticky;
     top: 0;
