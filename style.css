@@ -158,7 +158,6 @@ a{
     margin: 0.5rem 0 0.75rem 0;
     border-radius: 0.5rem;
     cursor: pointer;
-    transition: background-color 0.2s ease;
 }
 
 .liked-icon{
@@ -187,7 +186,7 @@ a{
 }
 
 .liked-songs:hover{
-    background-color: #242424;
+    background-color: #1f1f1f;
 }
 
 
@@ -414,12 +413,6 @@ a{
     #4d4d4d 50%,
     #4d4d4d 100%
 );
-}
-
-
-.time {
-    font-size: 0.75rem;
-    opacity: 0.8;
 }
 
 .aaa{
