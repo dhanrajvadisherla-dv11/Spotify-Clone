@@ -212,6 +212,18 @@ a{
     align-items: center;
 }
 
+
+.notification-icon {
+    font-size: 1.1rem;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.notification-icon:hover {
+    opacity: 1;
+}
+
+
 .profile-container {
 
     margin-left: 0.75rem;
