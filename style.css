@@ -366,6 +366,16 @@ a{
     width: 25%;
 }
 
+
+.playing-dot {
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    background-color: #1db954;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
 .player {
     width: 50%;
 }
