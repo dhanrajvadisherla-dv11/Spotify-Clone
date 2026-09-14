@@ -522,8 +522,8 @@ a{
     align-items: flex-start;
 }
 
-.album-img
-{
+.album-img {
     margin-right: 0.5rem;
     border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
