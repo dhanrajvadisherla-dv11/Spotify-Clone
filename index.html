@@ -607,9 +607,11 @@
 
                     <input type="range"
                         min="0"
-                        max="213"
-                        class="progress-bar"
-                        step="1">
+                        max="100"
+                        value="50"
+                        class="progress-bar volumn"
+                        step="1"
+                        id="volumeBar">
 
                     <div class="tot-time" style="font-size: 0.75rem; color: #b3b3b3;">
                         3:33
@@ -628,8 +630,10 @@
                     <input type="range"
                         min="0"
                         max="100"
+                        value="50"
                         class="progress-bar volumn"
-                        step="1">
+                        step="1"
+                        id="volumeBar">
                     <i class="fa-solid fa-expand iii vol" title="Fullscreen"></i>
                 </div>
             </div>
@@ -639,4 +643,16 @@
     </div>
 
 </body>
+
+<script>
+    const volumeBar = document.querySelector("#volumeBar");
+
+    volumeBar.addEventListener("input", () => {
+        const value = volumeBar.value;
+
+        volumeBar.style.background =
+            `linear-gradient(to right, #1bd760 ${value}%, #4d4d4d ${value}%)`;
+    });
+</script>
+
 </html>
