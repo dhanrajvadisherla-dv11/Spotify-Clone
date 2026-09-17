@@ -136,7 +136,14 @@ a{
     margin-top: 0.5rem;
     height: 2rem;
     width: fit-content;
+    cursor: pointer;
+    transition: transform 0.2s ease;
 }
+
+.badge:hover {
+    transform: scale(1.05);
+}
+
 
 .dark-badge {
     background-color: black;
