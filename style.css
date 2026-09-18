@@ -527,6 +527,10 @@ a{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    max-width: 180px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .album-img {
