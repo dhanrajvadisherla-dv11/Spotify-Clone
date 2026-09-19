@@ -283,6 +283,7 @@ a{
                 box-shadow 0.2s ease;
     width: 150px;
     border-radius: 0.5rem;
+    cursor: pointer;
     padding: 1rem;
     margin-left: 1.5rem;
     margin-top: 1rem;
