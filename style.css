@@ -276,7 +276,7 @@ a{
 
 
 .card{
-        background-color: transparent;
+    background-color: transparent;
 
     transition: background-color 0.2s ease,
                 transform 0.2s ease,
@@ -532,6 +532,14 @@ a{
     /* overflow: hidden; */
     white-space: nowrap;
     /* text-overflow: ellipsis; */
+}
+
+.song-title a {
+    transition: color 0.2s ease;
+}
+
+.song-title a:hover {
+    color: #1db954;
 }
 
 .album-img {
