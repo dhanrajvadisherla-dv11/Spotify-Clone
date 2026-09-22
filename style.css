@@ -397,6 +397,7 @@ a{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    user-select: none;
 }
 
 .player-control-icon {
@@ -404,6 +405,7 @@ a{
     margin-right: 1rem;
     margin-left: 1rem;
     opacity: 0.7;
+    user-select: none;
 }
 
 .player-control-icon:hover{
