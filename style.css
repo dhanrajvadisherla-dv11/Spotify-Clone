@@ -502,8 +502,13 @@ a{
     background-color: transparent;
 }
 
-.vol{
+.vol {
     margin-bottom: 0.5rem;
+}
+
+.fa-volume-high:hover {
+    color: #1db954 !important;
+    opacity: 1;
 }
 
 .iii:hover{
