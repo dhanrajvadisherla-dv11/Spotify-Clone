@@ -438,11 +438,12 @@ a{
 .progress-bar{
     width: 75%;
     appearance: none;
-    height: 3px;
+    height: 5px;
     /* background-color: transparent; */
     cursor: pointer;
     border-radius: 100px;
     outline: none;
+    transition: opacity 0.2s ease;
     margin-top: 0.5rem;
     background: linear-gradient(
     to right,
