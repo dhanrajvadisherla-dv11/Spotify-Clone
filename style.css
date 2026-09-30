@@ -311,6 +311,11 @@ a{
 
 .card-title{
     font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.card-title:hover{
+    color: #1db954;
 }
 
 .card-info{
