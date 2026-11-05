@@ -575,3 +575,30 @@ a{
     background: #5a5a5a;
     border-radius: 10px;
 }
+
+
+
+/* Animated Album Glow Effect */
+
+.album-img {
+    transition: all 0.4s ease;
+    animation: albumGlow 3s ease-in-out infinite;
+}
+
+@keyframes albumGlow {
+    0% {
+        box-shadow: 0 0 5px rgba(29, 185, 84, 0.2);
+    }
+
+    50% {
+        box-shadow: 0 0 18px rgba(29, 185, 84, 0.7);
+    }
+
+    100% {
+        box-shadow: 0 0 5px rgba(29, 185, 84, 0.2);
+    }
+}
+
+.album-img:hover {
+    transform: scale(1.05);
+}
