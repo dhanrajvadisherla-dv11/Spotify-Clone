@@ -673,3 +673,15 @@ a{
 .card:hover .card-img {
     transform: scale(1.04);
 }
+
+
+/* Card Click Animation */
+
+.card:active {
+    transform: scale(0.96);
+    transition: transform 0.1s ease;
+}
+
+.card {
+    -webkit-tap-highlight-color: transparent;
+}
