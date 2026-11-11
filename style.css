@@ -708,3 +708,13 @@ a{
 .song-title a:hover::after {
     width: 100%;
 }
+
+/* Album Card Green Glow Effect */
+
+.card-img {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover .card-img {
+    box-shadow: 0 0 12px rgba(29, 185, 84, 0.5);
+}
