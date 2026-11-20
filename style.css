@@ -729,3 +729,14 @@ a{
     opacity: 1;
     color: #ffffff;
 }
+
+/* Card Description Hover Effect */
+
+.card-info {
+    transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+.card:hover .card-info {
+    opacity: 1;
+    color: #ffffff;
+}
